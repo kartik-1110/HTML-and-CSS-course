@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto Serif", sans-serif;
+}
+/* navbar */
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(223, 206, 183);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+nav h3 {
+  color: #4b2301;
+  font-family: "Permanent Marker", cursive;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #4b2301;
+  font-weight: 600;
+  padding-left: 10px;
+}
+nav ul li a:active {
+  text-decoration: none;
+}
+nav ul li a:before {
+  text-decoration: none;
+}
+nav div {
+  display: flex;
+  flex-direction: row;
+}
+.logo-img {
+  height: 53px;
+  padding-right: 10px;
+  width: auto;
+}
+/* body */
+body {
+  margin: 0;
+}
+
+.body-main img {
+  height: 100vh;
+  width: 100%;
+}
+.body-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.body-section h1 {
+  color: #4b2301;
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+}
+.body-section input {
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
+  border-color: #dfcdc2;
+  border-radius: 15px;
+}
+.body-section button {
+  height: 45px;
+  width: 15%;
+  border-color: transparent;
+  background-color: #dfcdc2;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.body-section button:hover {
+  border-color: transparent;
+  background-color: #23160f;
+  border-radius: 15px;
+  color: white;
+}
+/* Footer */
+footer {
+  margin: 0;
+}
+.footer-main {
+  background-color: black;
+  height: 30vh;
+  color: white;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.footer-left h1 {
+  font-family: "Permanent Marker", cursive;
+}
+.footer-right ul {
+  list-style: none;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.footer-right ul li a {
+  text-decoration: none;
+  color: white;
+}
